@@ -31,9 +31,7 @@ int main() {
     int elementToFind;
     cout << "Введите элемент для поиска: ";
     cin >> elementToFind;
-
     vector<int>::iterator it = findInSorted(v.begin(), v.end(), elementToFind);
-
     if (it != v.end()) {
         cout << "Элемент " << *it << " найден." << endl;
     } else {
