@@ -15,7 +15,6 @@ std::map<std::string, int> wordsMapCounter(const std::string& str) {
          }), word.end());
         if (!word.empty()) wordCount[word]++;
     }
-
     return wordCount;
 }
 
@@ -25,6 +24,5 @@ int main() {
     for (const auto& pair : words) {
         cout << pair.first << ": " << pair.second << endl;
     }
-    
-    return 0;
+      return 0;
 }
