@@ -37,6 +37,5 @@ int main() {
     } else {
         cout << "Элемент не найден." << endl;
     }
-
     return 0;
 }
