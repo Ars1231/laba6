@@ -26,9 +26,7 @@ int main() {
     int elementToFind;
     cout << "Введите элемент для поиска: ";
     cin >> elementToFind;
-
     vector<int>::iterator it = Find(v.begin(), v.end(), elementToFind);
-
     if (it != v.end()) {
         cout << "Элемент " << elementToFind << " найден на позиции: " << distance(v.begin(), it) << endl;
     } else {
